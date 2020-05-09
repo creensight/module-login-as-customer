@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @copyright Copyright © 2020 CreenSight. All rights reserved.
+ * @author CreenSight Development Team <magento@creensight.com>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="CreenSight_LoginAsCustomer::logs" title="Login as Customer Logs" module="CreenSight_LoginAsCustomer" sortOrder="100" parent="Magento_Reports::report_customers" action="loginascustomer/log/index" resource="CreenSight_LoginAsCustomer::logs"/>
+    </menu>
+</config>
